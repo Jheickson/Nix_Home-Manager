@@ -10,7 +10,6 @@ with pkgs;
     # TERMINAL
     alacritty
 
-
     # WEB
     brave
 
