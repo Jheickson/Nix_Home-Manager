@@ -1,11 +1,9 @@
 { config, pkgs, ... }:
 
 {
-  home.file."~/.gitconfig".text = ''
-    [user]
-        name = "Jheickson Felipe"
-        email = "felipesantosatm@outlook.com"
-    [credential]
-        helper = store
-  '';
+  programs.git = {
+    enable = true;
+    userName  = "Jheickson Felipe";
+    userEmail = "felipesantosatm@outlook.com";
+  };
 }
