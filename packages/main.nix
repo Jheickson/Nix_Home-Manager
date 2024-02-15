@@ -9,7 +9,7 @@ with pkgs;
   home.packages = with pkgs; [
     # TERMINAL
     alacritty
-    zsh
+
 
     # WEB
     brave
