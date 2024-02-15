@@ -60,11 +60,11 @@
           always = true;
           notification = false;
         }
-        # {
-        #   command = "${pkgs.feh}/bin/feh --bg-scale ~/background.png";
-        #   always = true;
-        #   notification = false;
-        # }
+        {
+          command = "${pkgs.feh}/bin/feh --bg-scale ~/.config/home-manager/wallpapers/1350453.png";
+          always = true;
+          notification = false;
+        }
         {
           command = "picom -f &";
           always = true;
