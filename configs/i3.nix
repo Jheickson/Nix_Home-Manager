@@ -20,9 +20,15 @@
       };
 
       keybindings = lib.mkOptionDefault {
-        "XF86AudioMute" = "exec amixer set Master toggle";
-        "XF86AudioLowerVolume" = "exec amixer set Master 5%-";
-        "XF86AudioRaiseVolume" = "exec amixer set Master 5%+";
+        "XF86AudioMute" = "exec --no-startup-id amixer set Master toggle";
+        "XF86AudioLowerVolume" = "exec --no-startup-id amixer set Master 5%-";
+        "XF86AudioRaiseVolume" = "exec --no-startup-id amixer set Master 5%+";
+
+        "XF86AudioPlay" = "exec playerctl play-pause";
+        "XF86AudioPause" = "exec playerctl play-pause";
+        "XF86AudioNext" = "exec playerctl next";
+        "XF86AudioPrev" = "exec playerctl previous";
+
         "XF86MonBrightnessUp" = "exec --no-startup-id brightnessctl set 10%+";
         "XF86MonBrightnessDown" = "exec --no-startup-id brightnessctl set 10%-";
         "${modifier}+Return" = "exec ${pkgs.alacritty}/bin/alacritty";

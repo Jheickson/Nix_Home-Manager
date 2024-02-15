@@ -41,6 +41,7 @@ with pkgs;
 
     # SYSTEM
     brightnessctl
+    playerctl
     # polybar
     rofi
     unzip
