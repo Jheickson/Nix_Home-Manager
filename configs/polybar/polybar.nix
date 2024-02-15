@@ -9,7 +9,7 @@
       alsaSupport = true;
     };
 
-    script = "polybar -q -r momiji &";
+    script = "polybar -q -r momiji & polybar -q -r momiji-secondary &";
 
     config = ./polybar.ini;
   };
