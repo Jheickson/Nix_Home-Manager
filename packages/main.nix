@@ -36,6 +36,7 @@ with pkgs;
     vscode
 
     # USEFUL
+    micro
     tldr
     scrcpy
 
