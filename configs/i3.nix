@@ -55,7 +55,13 @@
 
         "${modifier}+x" = "fullscreen toggle";
         "${modifier}+Shift+0" = "restart";
-        "${modifier}+Alt+r" = "mode resize";
+        "${modifier}+Control+r" = "mode resize";
+
+        # "${modifier}+Alt_L+a" = "resize shrink width 5 px or 5 ppt";
+        # "${modifier}+Alt_L+r" = "resize grow height 5 px or 5 ppt";
+        # "${modifier}+Alt_L+w" = "resize shrink height 5 px or 5 ppt";
+        # "${modifier}+Alt_L+s" = "resize grow width 5 px or 5 ppt";
+
       };
 
       startup = [
