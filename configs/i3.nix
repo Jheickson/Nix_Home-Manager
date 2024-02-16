@@ -32,10 +32,12 @@
 
         "XF86MonBrightnessUp" = "exec --no-startup-id brightnessctl set 10%+";
         "XF86MonBrightnessDown" = "exec --no-startup-id brightnessctl set 10%-";
+
         "${modifier}+Return" = "exec ${pkgs.alacritty}/bin/alacritty";
         "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun";
         "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window";
         "${modifier}+b" = "exec ${pkgs.brave}/bin/brave";
+        "${modifier}+c" = "exec ${pkgs.vscode}/bin/vscode";
         # "${modifier}+Shift+x" = "exec systemctl suspend";
 
         "${modifier}+a" = "focus left";
@@ -52,7 +54,15 @@
         "${modifier}+Control+s" = "move workspace to output right";
 
         "${modifier}+x" = "fullscreen toggle";
+        "${modifier}+Shift+0" = "restart";
+        "${modifier}+Alt+r" = "mode resize";
 
+        "a" = "resize shrink width 10 px or 10 ppt";
+        "r" = "resize grow height 10 px or 10 ppt";
+        "w" = "resize shrink height 10 px or 10 ppt";
+        "s" = "resize grow width 10 px or 10 ppt";
+        "Escape" = "mode default";
+        "Return" = "mode default";
       };
 
       startup = [
@@ -78,7 +88,6 @@
           notification = false;
         }
       ];
-
     };
   };
 }
