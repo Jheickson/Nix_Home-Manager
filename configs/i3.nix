@@ -10,12 +10,13 @@
       modifier = "Mod4";
       bars = [ ];
 
-      window.border = 0;
+      window.border = 5;
+      window.titlebar = false;
 
       # font = "pango:FiraCode 20";
 
       gaps = {
-        inner = 15;
+        inner = 5;
         outer = 5;
       };
 
