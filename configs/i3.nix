@@ -56,13 +56,6 @@
         "${modifier}+x" = "fullscreen toggle";
         "${modifier}+Shift+0" = "restart";
         "${modifier}+Alt+r" = "mode resize";
-
-        "a" = "resize shrink width 10 px or 10 ppt";
-        "r" = "resize grow height 10 px or 10 ppt";
-        "w" = "resize shrink height 10 px or 10 ppt";
-        "s" = "resize grow width 10 px or 10 ppt";
-        "Escape" = "mode default";
-        "Return" = "mode default";
       };
 
       startup = [
