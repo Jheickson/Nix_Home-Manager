@@ -28,7 +28,9 @@ with pkgs;
     whatsapp-for-linux
 
     # MEDIA
+    flameshot
     stremio
+    vlc
 
     # DEV
     git
@@ -39,13 +41,19 @@ with pkgs;
     tldr
     scrcpy
 
+    # PRODUCTIVITY
+    libreoffice
+
     # SYSTEM
     brightnessctl
     playerctl
+    
     # polybar
     rofi
-    unzip
     unrar
+    rar
+    unzip
+    zip
     xfce.thunar
     zip
 
