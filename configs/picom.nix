@@ -13,9 +13,9 @@
     shadowOpacity = 0.7;
     shadowExclude = [ "window_type *= 'normal' && ! name ~= ''" ];
 
-    activeOpacity = 0.8;
-    inactiveOpacity = 0.5;
-    menuOpacity = 0.5;
+    activeOpacity = 1.0;
+    inactiveOpacity = 0.8;
+    menuOpacity = 0.8;
 
     backend = "glx";
     vSync = true;
@@ -23,7 +23,7 @@
     settings = {
       shadow-radius = 7;
       clear-shadow = true;
-      frame-opacity = 0.5;
+      frame-opacity = 0.7;
       blur-method = "dual_kawase";
       blur-strength = 5;
       alpha-step = 0.06;
