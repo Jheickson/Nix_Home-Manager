@@ -84,7 +84,7 @@
           notification = false;
         }
         {
-          command = "${pkgs.feh}/bin/feh --bg-scale ~/.config/home-manager/wallpapers/1350453.png";
+          command = "${pkgs.feh}/bin/feh --bg-scale ~/.config/home-manager/wallpapers/catpuccin_tetris.png";
           always = true;
           notification = false;
         }
