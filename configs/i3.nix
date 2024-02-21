@@ -25,8 +25,8 @@ in
       # font = "pango:FiraCode 20";
 
       gaps = {
-        inner = 5;
-        outer = 10;
+        inner = 10;
+        outer = 15;
       };
 
       keybindings = lib.mkOptionDefault {
@@ -45,9 +45,9 @@ in
         "${modifier}+Return" = "exec ${pkgs.alacritty}/bin/alacritty";
         "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun";
         "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window";
-        "${modifier}+b" = "exec ${pkgs.brave}/bin/brave";
-        "${modifier}+c" = "exec code";
-        "${modifier}+t" = "exec thunar";
+        "${modifier}+Shift+b" = "exec ${pkgs.brave}/bin/brave";
+        "${modifier}+Shift+c" = "exec code";
+        "${modifier}+Shift+t" = "exec thunar";
 
         # "${modifier}+Shift+x" = "exec systemctl suspend";
 
