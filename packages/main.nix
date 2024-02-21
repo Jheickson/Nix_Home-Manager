@@ -14,7 +14,9 @@ with pkgs;
     brave
 
     # CUSTOMIZATION
+    awf
     feh
+    xcolor
 
       # FONTS
       nerdfonts
@@ -50,10 +52,11 @@ with pkgs;
     
     # polybar
     rofi
-    unrar
-    rar
-    unzip
-    zip
+    # unrar
+    # rar
+    # unzip
+    # zip
+    peazip
     xfce.thunar
     zip
 
