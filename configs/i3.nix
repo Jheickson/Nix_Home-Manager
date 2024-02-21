@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 
 let
-  wallpaper = "~/.config/home-manager/wallpapers/catpuccin_tetris.png";
+  wallpaper = "~/.config/home-manager/wallpapers/Minimalistic/590412.jpg";
 in
 
 {
@@ -93,7 +93,7 @@ in
           notification = false;
         }
         {
-          command = "picom -f &";
+          command = "picom -f";
           always = true;
           notification = false;
         }
