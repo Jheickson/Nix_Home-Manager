@@ -9,6 +9,7 @@
     ./gtk.nix
     ./i3.nix
     ./polybar/polybar.nix
+    ./pywal.nix
     ./rofi.nix
     ./zsh.nix
 
