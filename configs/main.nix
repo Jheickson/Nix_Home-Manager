@@ -11,6 +11,7 @@
     ./polybar/polybar.nix
     ./pywal.nix
     ./rofi.nix
+    ./wpgtk.nix
     ./zsh.nix
 
 # TODO Dunst
