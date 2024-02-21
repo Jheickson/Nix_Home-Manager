@@ -4,8 +4,6 @@ with pkgs;
 
 {
 
-  services.picom.enable = true;
-
   home.packages = with pkgs; [
     # TERMINAL
     alacritty
