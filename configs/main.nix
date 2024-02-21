@@ -16,9 +16,7 @@
     ./zsh.nix
 
 # TODO Dunst
-# TODO Pywal
-# TODO Polybar (Improve: Colors, Current Audio Module, AutoHide(?))
-# TODO Picom animations
+# TODO Polybar (Improve: Current Audio Module, AutoHide(?))
 
   ];
 
