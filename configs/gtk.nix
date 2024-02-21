@@ -8,7 +8,7 @@
       package = pkgs.catppuccin-gtk.override {
         accents = [ "pink" ];
         size = "compact";
-        tweaks = [ "rimless" "black" ];
+        tweaks = [ "rimless" ];
         variant = "macchiato";
       };
     };
