@@ -36,6 +36,8 @@ with pkgs;
 
     # DEV
     git
+    python2
+    # python3
     vscode
 
     # USEFUL
