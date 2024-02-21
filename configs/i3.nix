@@ -1,5 +1,9 @@
 { pkgs, lib, ... }:
 
+let
+  wallpaper = "~/.config/home-manager/wallpapers/catpuccin_tetris.png";
+in
+
 {
   xsession.windowManager.i3 = {
     enable = true;
@@ -84,7 +88,7 @@
           notification = false;
         }
         {
-          command = "${pkgs.feh}/bin/feh --bg-fill ~/.config/home-manager/wallpapers/catpuccin_tetris.png";
+          command = "${pkgs.feh}/bin/feh --bg-fill ${wallpaper}";
           always = true;
           notification = false;
         }
