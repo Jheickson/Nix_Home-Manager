@@ -10,14 +10,19 @@
       modifier = "Mod4";
       bars = [ ];
 
-      window.border = 5;
-      window.titlebar = false;
+      window = {
+        border = 2;
+        titlebar = false;
+        hideEdgeBorders = "smart";
+      };
+
+      workspaceAutoBackAndForth = true;
 
       # font = "pango:FiraCode 20";
 
       gaps = {
         inner = 5;
-        outer = 5;
+        outer = 10;
       };
 
       keybindings = lib.mkOptionDefault {
@@ -37,7 +42,9 @@
         "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun";
         "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window";
         "${modifier}+b" = "exec ${pkgs.brave}/bin/brave";
-        "${modifier}+c" = "exec ${pkgs.vscode}/bin/vscode";
+        "${modifier}+c" = "exec code";
+        "${modifier}+t" = "exec thunar";
+
         # "${modifier}+Shift+x" = "exec systemctl suspend";
 
         "${modifier}+a" = "focus left";
@@ -54,7 +61,7 @@
         "${modifier}+Control+s" = "move workspace to output right";
 
         "${modifier}+x" = "fullscreen toggle";
-        "${modifier}+Shift+0" = "restart";
+        "${modifier}+Control+0" = "restart";
         "${modifier}+Control+r" = "mode resize";
 
         # "${modifier}+Alt_L+a" = "resize shrink width 5 px or 5 ppt";
