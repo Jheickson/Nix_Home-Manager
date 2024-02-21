@@ -12,6 +12,11 @@
     ./rofi.nix
     ./zsh.nix
 
+# TODO Dunst
+# TODO Pywal
+# TODO Polybar (Improve: Colors, Current Audio Module, AutoHide(?))
+# TODO Picom animations
+
   ];
 
   xsession.enable = true;
