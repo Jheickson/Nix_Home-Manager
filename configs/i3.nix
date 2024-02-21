@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 
 let
-  wallpaper = "~/.config/home-manager/wallpapers/Minimalistic/590412.jpg";
+  wallpaper = "~/.config/home-manager/wallpapers/Themed/catpuccin_tetris.png";
 in
 
 {
