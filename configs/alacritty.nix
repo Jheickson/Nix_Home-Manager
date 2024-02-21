@@ -8,6 +8,8 @@
       window = {
         title = "Terminal";
 
+        opacity = 0.5;
+
         padding = { y = 5; };
         dimensions = {
           lines = 75;
@@ -19,8 +21,6 @@
         normal.family = "Hack Nerd Font";
         size = 12.0;
       };
-
-      window_opacity = 0.3;
 
       shell = { program = "${pkgs.zsh}/bin/zsh"; };
 
