@@ -18,6 +18,7 @@
 # TODO Dunst
 # TODO Picom More Animations
 # TODO Polybar (Improve: Current Audio Module, AutoHide(?))
+# TODO Install jre and jdk
 
   ];
 

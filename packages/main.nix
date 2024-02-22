@@ -34,6 +34,8 @@ with pkgs;
 
     # DEV
     git
+    # jre
+    # jdk
     python2
     # python3
     vscode
