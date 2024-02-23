@@ -18,6 +18,7 @@ with pkgs;
 
       # FONTS
       nerdfonts
+      rounded-mgenplus
       siji
       termsyn
 
@@ -34,8 +35,8 @@ with pkgs;
 
     # DEV
     git
-    # jre
-    # jdk
+    jre
+    jdk
     python2
     # python3
     vscode
