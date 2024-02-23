@@ -5,7 +5,7 @@
   imports = [
 
     ./alacritty.nix
-    ./dunst.nix
+    ./dunst/dunst.nix
     ./git.nix
     ./gtk.nix
     ./i3.nix
