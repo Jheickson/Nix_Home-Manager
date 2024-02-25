@@ -50,13 +50,14 @@ with pkgs;
 
     # PRODUCTIVITY
     libreoffice
+    
+    # polybar
+    rofi
+    material-icons
 
     # SYSTEM
     brightnessctl
     playerctl
-    
-    # polybar
-    rofi
     # unrar
     # rar
     # unzip
