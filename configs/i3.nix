@@ -102,6 +102,11 @@ in
           always = true;
           notification = false;
         }
+        {
+          command = "whatsapp-for-linux";
+          always = true;
+          notification = true;
+        }
       ];
     };
   };
