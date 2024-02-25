@@ -24,6 +24,7 @@ with pkgs;
 
     # MISC
     cowsay
+    electron-mail
     neofetch
     googleearth-pro
     whatsapp-for-linux
@@ -31,6 +32,7 @@ with pkgs;
     # MEDIA
     flameshot
     stremio
+    youtube-music
     vlc
 
     # DEV

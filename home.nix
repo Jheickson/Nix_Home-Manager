@@ -23,6 +23,7 @@
   nixpkgs.config.permittedInsecurePackages = [
     "googleearth-pro-7.3.4.8248"
     "python-2.7.18.7"
+    "electron-25.9.0"
   ];
 
   # # The home.packages option allows you to install Nix packages into your
