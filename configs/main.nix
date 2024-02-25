@@ -16,10 +16,9 @@
     ./wpgtk.nix
     ./zsh.nix
 
-# TODO Dunst
+# TODO Dunst: Battery warnings
 # TODO Picom More Animations
-# TODO Polybar (Improve: Current Audio Module, AutoHide(?))
-# TODO Install jre and jdk
+# TODO Polybar (Improve: Current Audio Module, AutoHide(?), Battery charge indicator)
 # TODO P10K zsh config
 
   ];
