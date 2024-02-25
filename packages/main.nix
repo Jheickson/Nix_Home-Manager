@@ -54,6 +54,7 @@ with pkgs;
     # polybar
     rofi
     material-icons
+    libmpdclient
 
     # SYSTEM
     brightnessctl
