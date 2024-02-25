@@ -9,8 +9,8 @@
       alsaSupport = true;
     };
 
-    script = "polybar -q -r momiji & polybar -q -r momiji-secondary &";
+    script = "polybar -q -r simurgh &";
 
-    config = ./polybar.ini;
+    config = ./simurgh/polybar.ini;
   };
 }
