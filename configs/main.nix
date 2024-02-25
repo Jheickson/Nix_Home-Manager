@@ -18,7 +18,6 @@
 
 # TODO Dunst: Battery warnings
 # TODO Picom More Animations
-# TODO Polybar (Improve: Current Audio Module, AutoHide(?), Battery charge indicator)
 # TODO P10K zsh config
 
   ];
