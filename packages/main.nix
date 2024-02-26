@@ -39,6 +39,7 @@ with pkgs;
     git
     jre
     jdk
+    nodejs_21
     # python2
     python3
     python311Packages.pip
