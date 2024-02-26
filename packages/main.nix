@@ -39,8 +39,9 @@ with pkgs;
     git
     jre
     jdk
-    python2
-    # python3
+    # python2
+    python3
+    python311Packages.pip
     vscode
 
     # USEFUL
@@ -59,6 +60,9 @@ with pkgs;
     # SYSTEM
     brightnessctl
     playerctl
+    libnotify
+    poweralertd
+    upower
     # unrar
     # rar
     # unzip
