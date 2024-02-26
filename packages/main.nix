@@ -61,6 +61,8 @@ with pkgs;
     brightnessctl
     playerctl
     libnotify
+    htop
+    zenith
     poweralertd
     upower
     # unrar
