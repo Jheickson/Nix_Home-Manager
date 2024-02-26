@@ -16,6 +16,8 @@
     ./wpgtk.nix
     ./zsh.nix
 
+    ../modules/battery_monitor.nix
+
 # TODO Dunst: Battery warnings
 # TODO Picom More Animations
 # TODO P10K zsh config
