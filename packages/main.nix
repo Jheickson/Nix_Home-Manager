@@ -14,6 +14,9 @@ with pkgs;
     # CUSTOMIZATION
     awf
     feh
+    python311Packages.colorthief
+    colorz
+    python311Packages.colorzero
     xcolor
 
       # FONTS
