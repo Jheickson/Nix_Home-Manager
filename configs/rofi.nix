@@ -5,8 +5,12 @@
     enable = true;
     font = "Hack Nerd Font 12";
     # theme = "~/.cache/wal/colors-rofi-dark.rasi";
-    extraConfig = {
-      modi = "drun,emoji,ssh";
-    };
   };
+
+  home.packages = with pkgs; [
+    rofi-calc
+    rofi-screenshot
+    rofi-power-menu
+  ];
+  # TODO Create shortcuts to use these
 }
