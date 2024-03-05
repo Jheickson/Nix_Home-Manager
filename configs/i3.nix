@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 
 let
-  wallpaper = "~/.config/home-manager/wallpapers/Themed/wallpapersden.com_the-neon-shallows-building_5120x2880.jpg";
+  wallpaper = "~/.config/home-manager/wallpapers/Aesthetic/wallhaven-856dlk_2560x1440.png";
 in
 
 {
@@ -43,8 +43,8 @@ in
         "XF86MonBrightnessDown" = "exec --no-startup-id brightnessctl set 10%-";
 
         "${modifier}+Return" = "exec ${pkgs.alacritty}/bin/alacritty";
-        "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun";
-        "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window";
+        "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun -show-icons";
+        "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window -show-icons";
         "${modifier}+Shift+b" = "exec ${pkgs.brave}/bin/brave";
         "${modifier}+Shift+c" = "exec code";
         "${modifier}+Shift+t" = "exec thunar";
