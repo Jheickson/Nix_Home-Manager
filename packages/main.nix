@@ -40,6 +40,9 @@ with pkgs;
 
     # DEV
     git
+
+    create-react-app
+
     jre
     jdk
     nodejs_21
