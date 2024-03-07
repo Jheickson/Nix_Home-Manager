@@ -30,11 +30,13 @@ with pkgs;
     electron-mail
     neofetch
     googleearth-pro
+    telegram-desktop
     whatsapp-for-linux
 
     # MEDIA
     flameshot
     stremio
+    obs-studio
     youtube-music
     vlc
 
