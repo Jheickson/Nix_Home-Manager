@@ -60,6 +60,7 @@ with pkgs;
 
     # PRODUCTIVITY
     libreoffice
+    drawio
     
     # polybar
     rofi
