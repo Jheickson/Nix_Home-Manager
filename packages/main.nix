@@ -45,9 +45,16 @@ with pkgs;
 
     create-react-app
 
+    docker
+    # docker-client
+    docker-compose
+    php
+    php83Packages.composer
+
     jre
     jdk
     nodejs_21
+    # nodePackages.npm
     # python2
     python3
     python311Packages.pip
