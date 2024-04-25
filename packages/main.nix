@@ -10,6 +10,7 @@ with pkgs;
 
     # WEB
     brave
+    chromium
 
     # CUSTOMIZATION
     awf
