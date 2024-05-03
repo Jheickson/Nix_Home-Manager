@@ -6,7 +6,6 @@ with pkgs;
 
   home.packages = with pkgs; [
     # TERMINAL
-    alacritty
 
     # WEB
     brave
@@ -42,7 +41,6 @@ with pkgs;
     vlc
 
     # DEV
-    git
 
     create-react-app
 
@@ -71,7 +69,6 @@ with pkgs;
     drawio
     
     # polybar
-    rofi
     material-icons
     libmpdclient
 

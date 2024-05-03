@@ -3,6 +3,6 @@
 {
   programs.eww = {
     enable = true;
-    configDir = ./eww_configs;
+    configDir = ./configs/saimoomedits/eww/bar;
   };
 }
