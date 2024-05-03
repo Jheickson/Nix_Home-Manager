@@ -6,6 +6,7 @@
 
     ./alacritty.nix
     ./dunst/dunst.nix
+    ./eww/eww.nix
     ./git.nix
     ./gtk.nix
     ./i3.nix
