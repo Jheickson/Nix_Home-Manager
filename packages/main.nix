@@ -116,6 +116,21 @@ with pkgs;
 
   # $ nmcli --ask device wifi connect "$SSID"
 
+  #   Creating Hotspot
+  # With nmcli, we can use a one-liner to create a WiFi hotspot:
+
+  # $ sudo nmcli device wifi hotspot con-name t-450 ssid t-450 band bg password qw3rtyu1
+  #
+  # Let’s see what’s happening here:
+
+  # device wifi specifies that we’re operating on a WiFi device
+  # hotspot signifies that we’re creating a hotspot access point
+  # con-name t-450 sets the connection name to be t-450
+  # ssid t-450 sets the SSID (Service Set Identifier) for the hotspot
+  # band bg specifies the radio band, where bg typically refers to the 2.4 GHz band
+  # password sets the password for the hotspot access point
+
+
     networkmanager
     networkmanagerapplet
     networkmanager_dmenu
