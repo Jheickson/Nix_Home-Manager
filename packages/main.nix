@@ -130,6 +130,16 @@ with pkgs;
   # band bg specifies the radio band, where bg typically refers to the 2.4 GHz band
   # password sets the password for the hotspot access point
 
+  #   Deleting Hotspot
+  # When we no longer need the hotspot, we can remove it:
+
+  # $ sudo nmcli connection delete t-450
+  # Copy
+  # Let’s break this down:
+
+  # connection signifies that we’re managing a network connection
+  # delete specifies that we’re deleting a connection, which is t-450 in this case
+
 
     networkmanager
     networkmanagerapplet
