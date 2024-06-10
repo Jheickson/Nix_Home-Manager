@@ -65,8 +65,9 @@ with pkgs;
     scrcpy
 
     # PRODUCTIVITY
-    libreoffice
     drawio
+    libreoffice
+    nomachine-client
     
     # polybar
     material-icons
