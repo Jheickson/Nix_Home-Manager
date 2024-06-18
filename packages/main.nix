@@ -50,6 +50,9 @@ with pkgs;
     php
     php83Packages.composer
 
+    lazydocker
+    lazygit
+
     jre
     jdk
     nodejs_21
